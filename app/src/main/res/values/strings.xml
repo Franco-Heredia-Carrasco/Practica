@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Practica</string>
+    <string name="txt_Bienvenida">Bienvenidos a EcoTrueque</string>
+    <string name="txt_Iniciar">Presione para hacer trueques</string>
+    <string name="txt_palabras_formulario">Ingrese el objeto que quiere intercambiar</string>
+    <string name="txt_ingrese_el_nombre">Agregue el Nombre del objeto</string>
+    <string name="txt_radio_group_ropas">Vestimentas</string>
+    <string name="txt_radio_group_libros">Libros</string>
+    <string name="txt_radio_group_Videojuegos">Videojuegos</string>
+    <string name="txt_radio_group_juguetes">Juguetes</string>
+    <string name="txt_radio_group_consolas">Consolas</string>
+    <string name="txt_boton_guardar">Publicar</string>
+    <string name="txt_boton_ver">Ver Objetos</string>
+    <string name="txt_Categoria">Categoría seleccionada</string>
+    <string name="txt_volver_menu">Volver Menu</string>
+</resources>

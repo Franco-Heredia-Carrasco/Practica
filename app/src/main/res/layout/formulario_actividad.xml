@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Formulary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/TextoFormulario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/txt_palabras_formulario"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Poner_nombre_text"
+        android:layout_width="357dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_ingrese_el_nombre"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextoFormulario" />
+
+    <RadioGroup
+        android:id="@+id/radioGrupo"
+        android:layout_width="163dp"
+        android:layout_height="317dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Poner_nombre_text">
+
+
+        <RadioButton
+            android:id="@+id/radioRopa"
+            android:layout_width="152dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="8sp"
+            android:text="@string/txt_radio_group_ropas"
+            android:textSize="19sp" />
+
+        <RadioButton
+            android:id="@+id/radioLibros"
+            android:layout_width="152dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:text="@string/txt_radio_group_libros"
+            android:textSize="19sp" />
+
+        <RadioButton
+            android:id="@+id/radioJuguetes"
+            android:layout_width="152dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:text="@string/txt_radio_group_juguetes"
+            android:textSize="19sp" />
+
+        <RadioButton
+            android:id="@+id/radioConsolas"
+            android:layout_width="152dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:text="@string/txt_radio_group_consolas"
+            android:textSize="19sp" />
+
+        <RadioButton
+            android:id="@+id/radioVideojuegos"
+            android:layout_width="152dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8sp"
+            android:text="@string/txt_radio_group_Videojuegos"
+            android:textSize="19sp" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGrupo">
+
+        <Button
+            android:id="@+id/botonGuardar"
+            android:layout_width="143dp"
+            android:layout_height="75dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:text="@string/txt_boton_guardar"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
